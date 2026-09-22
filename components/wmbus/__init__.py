@@ -127,5 +127,5 @@ async def to_code(config):
     cg.add_library(
         "wM-Bus-drivers",
         None,
-        "https://github.com/SzczepanLeon/wmbus-drivers#1.3.13",
+        "https://github.com/kplysa/hydrus-wmbus-drivers#hydrus-wemos-1.3.13",
     )
