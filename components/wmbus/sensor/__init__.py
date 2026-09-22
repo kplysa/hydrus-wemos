@@ -297,7 +297,7 @@ CONFIG_SCHEMA = cv.Schema(
             icon="mdi:meter-gas",
         ),
         cv.Optional("flow_temperature_c"): sensor.sensor_schema(
-            accuracy_decimals=0,
+            accuracy_decimals=1,
             unit_of_measurement=UNIT_CELSIUS,
             device_class=DEVICE_CLASS_TEMPERATURE,
             state_class=STATE_CLASS_MEASUREMENT,
